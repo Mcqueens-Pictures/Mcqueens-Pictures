@@ -122,6 +122,11 @@ padding-left: 8%;
 
 background-image: url("./hero.jpg");
 
+background: linear-gradient
+    ( 90deg, rgba(0, 0, 0, 0.8), 
+    rgba(0, 0, 0, 0.2) ), 
+    url("hero.jpg");
+
 background-size: cover;
 
 background-position: center;
