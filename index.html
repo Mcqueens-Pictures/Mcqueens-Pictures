@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>McQueens Pictures — Automotive Photography</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- MENU -->
+
+<header>
+
+    <nav>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">À propos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <p class="hero-label">ACHILLE OBRACZKA — Photographie automobile</p>
+
+        <h2>
+            WORLDWIDE<br>
+            <span>CAR CULTURE.</span>
+        </h2>
+
+        <p class="hero-description">
+            Voitures. Souvenirs. 
+        </p>
+
+        <a href="#portfolio" class="button">
+            MON TRAVAIL 
+        </a>
+
+    </div>
+
+    <div class="hero-location">
+        FRANCE<br>
+        <span>48°51'N — 2°21'E</span>
+    </div>
+
+</section>
+
+
+<!-- PORTFOLIO -->
+
+<section id="portfolio" class="portfolio">
+
+    <div class="section-top">
+
+        <div>
+            <p class="section-label">01 / PORTFOLIO</p>
+
+            <h2>Des<br>exemples.</h2>
+        </div>
+
+        <p class="section-intro">
+            Une sélection de clichés
+        </p>
+
+    </div>
+
+
+    <div class="gallery">
+
+        <img src="images/photo1.jpg" alt="Automotive photography">
+
+        <img src="images/photo2.jpg" alt="Automotive photography">
+
+        <img src="images/photo3.jpg" alt="Automotive photography">
+
+        <img src="images/photo4.jpg" alt="Automotive photography">
+
+        <img src="images/photo5.jpg" alt="Automotive photography">
+
+        <img src="images/photo6.jpg" alt="Automotive photography">
+
+        <img src="images/photo7.jpg" alt="Automotive photography">
+
+        <img src="images/photo8.jpg" alt="Automotive photography">
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="about">
+
+    <div>
+
+        <p class="section-label">02 / A PROPOS</p>
+
+        <h2>
+            ACHILLE<br>
+            <span>OBRACZKA.</span>
+        </h2>
+
+    </div>
+
+    <div class="about-text">
+
+        <p>
+            Photographe automobile passionné par les sports mécaniques et tout ce qui en découle
+        </p>
+
+        <p>
+            Je cherche à partager à travers mes photos mon amour profond pour ce milieu qui m'a tant apporté
+        </p>
+
+        <a
+            href="https://www.instagram.com/mcqueens.pictures/"
+            target="_blank"
+            class="instagram-link"
+        >
+            @mcqueens.pictures ↗
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT / BOOKING -->
+
+<section id="contact" class="contact">
+
+<div class="contact-header">
+
+    <p class="section-label">03 / CONTACT</p>
+
+    <h2>
+        TU VEUX UNE PHOTO<br>
+        <span>DE TA VOITURE ?</span>
+    </h2>
+
+    <p>
+        Tu as une voiture que tu veux immortaliser ?
+        Envoie-moi les détails de ton projet.
+    </p>
+
+</div>
+
+
+<form
+    class="booking-form"
+    action="https://formspree.io/f/xjybneay"
+    method="POST"
+>
+
+    <!-- NOM -->
+
+    <div class="form-group">
+
+        <label for="name">
+            NOM / PRÉNOM
+        </label>
+
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Ton nom"
+            required
+        >
+
+    </div>
+
+
+    <!-- EMAIL -->
+
+    <div class="form-group">
+
+        <label for="email">
+            EMAIL
+        </label>
+
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="ton@email.com"
+            required
+        >
+
+    </div>
+
+
+    <!-- TÉLÉPHONE -->
+
+    <div class="form-group">
+
+        <label for="phone">
+            TÉLÉPHONE
+        </label>
+
+        <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="06 00 00 00 00"
+        >
+
+    </div>
+
+
+    <!-- VOITURE -->
+
+    <div class="form-group">
+
+        <label for="car">
+            VÉHICULE
+        </label>
+
+        <input
+            type="text"
+            id="car"
+            name="car"
+            placeholder="Nissan Silvia S15"
+            required
+        >
+
+    </div>
+
+
+    <!-- TYPE DE SHOOTING -->
+
+    <div class="form-group">
+
+        <label for="shooting">
+            TYPE DE SHOOTING
+        </label>
+
+        <select
+            id="shooting"
+            name="shooting"
+            required
+        >
+
+            <option value="">
+                Sélectionner
+            </option>
+
+            <option value="Shooting statique">
+                Shooting statique
+            </option>
+
+            <option value="Event">
+                Event / rassemblement
+            </option>
+
+            <option value="Autre">
+                Autre
+            </option>
+
+        </select>
+
+    </div>
+
+
+    <!-- DATE -->
+
+    <div class="form-group">
+
+        <label for="date">
+            DATE SOUHAITÉE
+        </label>
+
+        <input
+            type="date"
+            id="date"
+            name="date"
+        >
+
+    </div>
+
+
+    <!-- LIEU -->
+
+    <div class="form-group">
+
+        <label for="location">
+            LIEU
+        </label>
+
+        <input
+            type="text"
+            id="location"
+            name="location"
+            placeholder="Toulouse, parking, circuit..."
+        >
+
+    </div>
+
+
+    <!-- MESSAGE -->
+
+    <div class="form-group full">
+
+        <label for="message">
+            TON PROJET
+        </label>
+
+        <textarea
+            id="message"
+            name="message"
+            rows="6"
+            placeholder="Parle-moi un peu de ton projet..."
+            required
+        ></textarea>
+
+    </div>
+
+
+    <!-- BOUTON -->
+
+    <button
+        type="submit"
+        class="submit-button"
+    >
+        ENVOYER LA DEMANDE ↗
+    </button>
+
+</form>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div>
+        © 2026 ACHILLE OBRACZKA
+    </div>
+
+    <a
+        href="https://www.instagram.com/mcqueens.pictures/"
+        target="_blank"
+    >
+        INSTAGRAM ↗
+    </a>
+
+</footer>
+
+
+<!-- LIGHTBOX -->
+
+<div class="lightbox" id="lightbox">
+
+    <button class="lightbox-close" id="lightboxClose">
+        ×
+    </button>
+
+    <button class="lightbox-prev" id="lightboxPrev">
+        ‹
+    </button>
+
+    <img
+        id="lightboxImage"
+        src=""
+        alt="Automotive photography"
+    >
+
+    <button class="lightbox-next" id="lightboxNext">
+        ›
+    </button>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
