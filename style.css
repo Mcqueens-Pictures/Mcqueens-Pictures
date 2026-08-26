@@ -266,13 +266,12 @@ PORTFOLIO
 ========================= */
 
 .portfolio {
-    padding: 170px 0 170px 8%; 
+    padding: 170px 8%; 
 }
 
 .section-top {
     max-width: 600px;
     margin-bottom: 80px;
-    padding-right: 8%; 
 }
 
 .section-label {
