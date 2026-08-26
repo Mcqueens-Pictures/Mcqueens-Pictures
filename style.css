@@ -266,14 +266,13 @@ PORTFOLIO
 ========================= */
 
 .portfolio {
-
-padding: 170px 8%;
-
+    padding: 170px 0 170px 8%; 
 }
 
 .section-top {
     max-width: 600px;
     margin-bottom: 80px;
+    padding-right: 8%; 
 }
 
 .section-label {
@@ -319,36 +318,26 @@ GALLERY
 
 .gallery {
     display: grid;
-
     grid-template-columns: repeat(2, 1fr);
-
+    grid-template-rows: repeat(4, 1fr);
     gap: 15px;
-}
+    padding-right: 0;
 
 .gallery img {
-
     width: 100%;
-
-    height: 550px;
-
+    height: 300px;
     object-fit: cover;
-
     display: block;
-
     cursor: pointer;
-
     transition:
         transform 0.5s ease,
         filter 0.5s ease;
 }
 
 .gallery img:hover {
-
     transform: scale(1.02);
-
     filter: brightness(0.75);
 }
-
 /* =========================
 ABOUT
 ========================= */
