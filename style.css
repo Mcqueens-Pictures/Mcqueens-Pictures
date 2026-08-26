@@ -272,15 +272,8 @@ padding: 170px 8%;
 }
 
 .section-top {
-
-display: flex;
-
-justify-content: space-between;
-
-align-items: flex-end;
-
-margin-bottom: 80px;
-
+    max-width: 600px;
+    margin-bottom: 80px;
 }
 
 .section-label {
