@@ -275,44 +275,32 @@ PORTFOLIO
 }
 
 .section-label {
-
-font-size: 10px;
-
-letter-spacing: 4px;
-
-color: #888;
-
-margin-bottom: 20px;
-
+    font-size: 10px;
+    letter-spacing: 4px;
+    color: #888;
+    margin-bottom: 20px;
 }
 
 .portfolio h2 span,
 .about h2 span {
-    color: #080808; 
+    color: #080808;
     -webkit-text-stroke: 1.5px white;
-    paint-order: stroke fill; 
+    paint-order: stroke fill;
 }
 
-font-family: "Barlow Condensed", sans-serif;
-
-font-size: clamp(90px, 11vw, 160px);
-
-line-height: 0.8;
-
-text-transform: uppercase;
-
+.portfolio h2,
+.about h2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: clamp(90px, 11vw, 160px);
+    line-height: 0.8;
+    text-transform: uppercase;
 }
 
 .section-intro {
-
-max-width: 350px;
-
-color: #888;
-
-line-height: 1.7;
-
-font-size: 13px;
-
+    max-width: 350px;
+    color: #888;
+    line-height: 1.7;
+    font-size: 13px;
 }
 
 /* =========================
