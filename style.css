@@ -288,12 +288,14 @@ margin-bottom: 20px;
 
 .portfolio h2 span,
 .about h2 span {
-    color: transparent;
-    -webkit-text-stroke: 1px white;
-} 
+    color: #080808; 
+    -webkit-text-stroke: 1.5px white;
+    paint-order: stroke fill; 
+}
+
 font-family: "Barlow Condensed", sans-serif;
 
-font-size: clamp(70px, 9vw, 130px);
+font-size: clamp(90px, 11vw, 160px);
 
 line-height: 0.8;
 
